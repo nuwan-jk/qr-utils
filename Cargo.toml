@@ -1,0 +1,17 @@
+[package]
+name = "qrqc_utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27.2"
+qrcode = "0.14.0"
+arboard = "3.4.0"
+
+[[bin]]
+name = "qr"
+path = "src/bin/qr.rs"
+
+[[bin]]
+name = "qrc"
+path = "src/bin/qrc.rs"
